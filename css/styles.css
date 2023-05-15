@@ -1,0 +1,107 @@
+:root {
+    --main-bg: #f0f0f0;
+    --dark-accent: #e6e6e6;
+    --red: #e6563b;
+    --yellow: #eb9d3a;
+    --turquoise: #00aba9;
+    --green: #7cb06c;
+}
+
+body {
+    background: var(--main-bg);
+    font-family: 'Abel', sans-serif;
+}
+
+#logo {
+    height: 105px;
+    width: 105px;
+}
+
+.font-increase {
+    font-size: 2em;
+}
+
+.display-font {
+    font-family: 'Anton', sans-serif;
+}
+
+.big-badge {
+    color: whitesmoke;
+    border: solid whitesmoke 8px;
+    height: 145px;
+    width: 145px;
+    border-radius: 100%;
+}
+
+.little-badge {
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+}
+
+.red-bg {
+    background: var(--red);
+}
+
+.yellow-bg {
+    background: var(--yellow);
+}
+
+.green-bg {
+    background: var(--green);
+}
+
+.turquoise-bg {
+    background: var(--turquoise);
+}
+
+.border-break {
+    border-bottom: solid 1px dimgrey;
+}
+
+.main-img, .side-img {
+    width: 100%;
+    background-size: cover;
+}
+
+.main-img {
+    height: 250px;
+    border: solid 8px var(--dark-accent);
+}
+
+.main-img-1 {
+    background-image: url("../images/apple-ipad.jpg");
+}
+
+.main-img-2 {
+    background-image: url("../images/macbook.jpg");
+}
+
+.main-img-3 {
+    background-image: url("../images/man.jpg");
+}
+
+.main-img-4 {
+    background-image: url("../images/security.jpg");
+}
+
+.side-img {
+    height: 95px;
+    border: solid 4px var(--dark-accent);
+}
+
+.side-img-1 {
+    background-image: url("../images/mobile-phone.jpg");
+}
+
+.side-img-2 {
+    background-image: url("../images/head.jpg");
+}
+
+.side-img-3 {
+    background-image: url("../images/ipad.jpg");
+}
+
+.twitter-logo {
+    color: #1DA1F2;
+}
